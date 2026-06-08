@@ -14,23 +14,23 @@ Deploy a static HTML website using Azure Storage.
 
 ### Step 1
 Created Resource Group
-![Resource Group Creation](screenshots/resource-group-creation.png)
+![Resource Group Creation](../screenshots/resource-group-creation.png)
 
 ### Step 2
 Created Storage Account
-![Created Storage Account](screenshots/storage-account-creation.png)
+![Created Storage Account](../screenshots/storage-account-creation.png)
 
 ### Step 3
 Enabled Static Website Hosting
-![Enabled Static Website Hosting](screenshots/static-website-hosting-enable.png)
+![Enabled Static Website Hosting](../screenshots/static-website-hosting-enable.png)
 
 ### Step 4
 Uploaded index.html
-![Uploded files](screenshots/file-uploads.png)
+![Uploded files](../screenshots/file-uploads.png)
 
 ### Step 5
 Verified website URL
-![Verified website URL](screenshots/static-website-live.png)
+![Verified website URL](../screenshots/static-website-live.png)
 
 ## Challenges
 
