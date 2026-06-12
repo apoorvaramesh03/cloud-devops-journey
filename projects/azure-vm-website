@@ -28,11 +28,13 @@ index.html
 
 ## Steps
 
-1. Created a Resource Group to organize resources.
+1. Created resource group and VM.
+![Resource Group & VM Creation](../screenshots/vm-creation.png)
 2. Configured networking rules
   Allowed:
     SSH (22)
     HTTP (80)
+![Network COnfiguration](../screenshots/network-config.png)
 3. Connected using SSH
 4. Installed Nginx
   Commands:
@@ -46,6 +48,7 @@ index.html
 
     sudo systemctl status nginx
 5. Hosted website
+![VM deployed Website](../screenshots/azure-vm-deployed-website.png)
 
 
 ## Concepts Learned
@@ -61,6 +64,7 @@ index.html
 ###Debugging
 ####Error
 ERR_CONNECTION_TIMED_OUT
+![Error](../screenshots/error.png)
 
 ####Resolution
 
