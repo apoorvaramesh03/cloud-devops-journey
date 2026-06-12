@@ -3,6 +3,74 @@
 ## What I Learned
 
 ---
+# Azure Global Infrastructure
+
+Azure has a global infrastructure made up of data centers, regions, and geographies.
+
+## Data Centers
+
+- Physical locations where Azure resources run.
+- Contains servers, storage, and networking equipment.
+
+## Azure Regions
+
+- A region is a geographical area containing one or more data centers.
+- Used to deploy Azure resources.
+- Helps with latency, compliance, and availability.
+
+## Azure Geographies
+
+- A geography is a group of Azure regions.
+- Defines data residency and compliance boundaries.
+
+  # Availability Zones
+
+- Physically separate data centers within an Azure region.
+- Each zone has independent:
+  - Power
+  - Cooling
+  - Networking
+- Provides high availability and fault protection.
+
+Types of Availability Zones:
+
+1. **Zonal Services**
+   - Resource is deployed to a specific zone.
+   - Example: Virtual Machines in Zone 1
+
+2. **Zone-Redundant Services**
+   - Data is automatically replicated across multiple zones.
+
+3. **Non-Regional Services**
+   - Services that are not tied to a specific region or zone.
+
+---
+
+# Region Pairs
+
+- Azure regions are paired with another region within the same geography.
+- Helps with disaster recovery and reliability.
+
+Benefits:
+
+- Data replication
+- Disaster recovery
+- Priority recovery during outages
+
+# Sovereign Regions
+
+- Separate Azure environments designed for specific government or regulatory requirements.
+
+Examples:
+
+- Azure Government
+- Azure China
+
+Used for:
+
+- Compliance
+- Data residency
+- Legal requirements
 
 # Azure Core Architecture
 
